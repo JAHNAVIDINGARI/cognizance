@@ -1,0 +1,15 @@
+Function Main
+    Declare Integer n, i, a, b, c
+    
+    Input n
+    Assign a = 0
+    Assign b = 1
+    Assign i = 0
+    While i<n
+        Assign i = i+1
+        Assign c = a+b
+        Assign a = b
+        Assign b = c
+    End
+    Output a
+End
